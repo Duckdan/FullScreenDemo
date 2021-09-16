@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.NoTitleBar">
+        <!-- 父主题已经包含了NoTitleBar的选项 ，所以目前不需要-->
+        <!--        <item name="windowNoTitle">true</item>-->
+
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <!--
+        让内容沉浸到状态栏下，需要下面下面选项同时搭配生效
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    -->
+
+    <!--
+        让状态栏半透明，需要下面选项同时搭配
+        <item name="android:windowTranslucentStatus">true</item>
+         <item name="android:statusBarColor">@android:color/transparent</item>
+    -->
+
+</resources>
