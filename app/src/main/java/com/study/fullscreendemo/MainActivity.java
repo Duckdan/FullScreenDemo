@@ -15,7 +15,9 @@ import com.study.fullscreendemo.x5webview.FullScreenActivity;
 
 /**
  * 视频播放地址
+ * 这是西瓜视频的介绍，h5代码里面使用了字节跳动xgplayer的开源框架做视频播放
  * https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/byted-player-videos/1.0.0/xgplayer-demo.mp4
+ * 如果想要替换视频播放地址，在源代码里面app/src/main/assets/dist全局搜索上面这个地址，替换即可
  */
 public class MainActivity extends Activity {
 
